@@ -6,7 +6,7 @@ args = commandArgs(trailingOnly=TRUE)
 recording_id <- args[1]
 filename <- args[2];
 
-folder <- "modules/traits-beatspectra/beatspectra/"
+folder <- "modules/traits-frequency/frequency/"
 
 wave <- readWave(filename)
 wave <- normalize(wave)
